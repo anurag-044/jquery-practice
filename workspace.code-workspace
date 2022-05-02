@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "Student",
+			"path": "D:\\Student"
+		},
+		{
+			"name": "sdf",
+			"path": "d:\\sdf"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"dataworkspace.excludedProjects": [
+			"sdf/sdf.sqlproj",
+			"Student/Student.sqlproj"
+		],
+		"liveServer.settings.multiRootWorkspaceName": "jQuery practice"
+	}
+}

@@ -1,0 +1,129 @@
+body{
+    max-width: 100%;
+    background-color: antiquewhite;
+}
+
+.form_main{
+    display: flex;
+}
+
+#fix{
+    width: 50%;
+    margin: auto;
+    background-color: bisque;
+    backdrop-filter: blur(100px);
+}
+
+/* #addemail{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: rgba(198, 197, 197, 0.419);
+    border: solid 1px black;
+    text-decoration: none;
+    text-align: center;
+} */
+
+#form{
+    padding: 15px;
+}
+
+.label{
+    display: inline-block;
+    width: 20%;
+    margin-top:5% ;
+}
+
+#fix input{
+   
+    width: 40%;
+    padding: 8px;
+}
+
+#fix select{
+    display: inline-block;
+    width: 40%;
+    padding: 8px;
+}
+#form2{
+    width: 50%;
+    margin: 0 auto;
+    background-color: bisque;
+    backdrop-filter: blur(100px);
+
+}
+
+#form2 input{
+   
+    width: 40%;
+    padding: 8px;
+}
+
+#form2 select{
+    display: inline-block;
+    width: 40%;
+    padding: 8px;
+}
+
+
+.appendEmail{
+    margin-left: 20.5%;
+}
+
+#email_a{
+    margin-left: 0;
+}
+
+
+
+#myTableData{
+    border: solid 1px;
+    border-radius: 4px;
+    background-color: aquamarine;
+}
+
+#myTableData{
+ 
+    width: 400px;
+    border: solid 1px;
+    border-radius: 4px;
+    background-color: aquamarine;
+
+}
+
+#myTableData th{
+    background-color: rgba(160, 92, 224, 0.647);
+
+    
+}
+
+#myTableData td{
+    
+    color: rgb(0, 55, 255);   
+
+}
+
+#ok{
+    width: 80%;
+    display: flex;
+}
+
+#mydata{
+    display: flex;
+    margin: auto 0 auto auto;
+}
+
+
+
+#upload{
+    display: inline-block;
+    width: 15%;
+    height: 150px;
+    border: solid 1px;
+    background: white;
+    outline: none;
+}
+
+#upload::file-selector-button{
+    display: none;
+}
